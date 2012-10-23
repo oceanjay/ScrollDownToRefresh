@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB174D27163725C90081DC21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB174D26163725C90081DC21 /* UIKit.framework */; };
+		DB174D29163725C90081DC21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB174D28163725C90081DC21 /* Foundation.framework */; };
+		DB174D2B163725C90081DC21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB174D2A163725C90081DC21 /* CoreGraphics.framework */; };
+		DB174D31163725C90081DC21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB174D2F163725C90081DC21 /* InfoPlist.strings */; };
+		DB174D33163725C90081DC21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D32163725C90081DC21 /* main.m */; };
+		DB174D37163725C90081DC21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D36163725C90081DC21 /* AppDelegate.m */; };
+		DB174D39163725C90081DC21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D38163725C90081DC21 /* Default.png */; };
+		DB174D3B163725C90081DC21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D3A163725C90081DC21 /* Default@2x.png */; };
+		DB174D3D163725CA0081DC21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D3C163725CA0081DC21 /* Default-568h@2x.png */; };
+		DB174D40163725CA0081DC21 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB174D3E163725CA0081DC21 /* MainStoryboard.storyboard */; };
+		DB174D43163725CA0081DC21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D42163725CA0081DC21 /* ViewController.m */; };
+		DB174D4B163726230081DC21 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D4A163726230081DC21 /* RefreshView.m */; };
+		DB174D52163726E50081DC21 /* navbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D51163726E50081DC21 /* navbar_background.png */; };
+		DB174D54163727060081DC21 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D53163727060081DC21 /* arrow@2x.png */; };
+		DB174D56163727BC0081DC21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB174D55163727BC0081DC21 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB174D22163725C90081DC21 /* SDTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB174D26163725C90081DC21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB174D28163725C90081DC21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB174D2A163725C90081DC21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB174D2E163725C90081DC21 /* SDTR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDTR-Info.plist"; sourceTree = "<group>"; };
+		DB174D30163725C90081DC21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB174D32163725C90081DC21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB174D34163725C90081DC21 /* SDTR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDTR-Prefix.pch"; sourceTree = "<group>"; };
+		DB174D35163725C90081DC21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB174D36163725C90081DC21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB174D38163725C90081DC21 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB174D3A163725C90081DC21 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB174D3C163725CA0081DC21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB174D3F163725CA0081DC21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DB174D41163725CA0081DC21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB174D42163725CA0081DC21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB174D49163726230081DC21 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		DB174D4A163726230081DC21 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+		DB174D51163726E50081DC21 /* navbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_background.png; sourceTree = "<group>"; };
+		DB174D53163727060081DC21 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		DB174D55163727BC0081DC21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB174D1F163725C90081DC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB174D56163727BC0081DC21 /* QuartzCore.framework in Frameworks */,
+				DB174D27163725C90081DC21 /* UIKit.framework in Frameworks */,
+				DB174D29163725C90081DC21 /* Foundation.framework in Frameworks */,
+				DB174D2B163725C90081DC21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB174D17163725C90081DC21 = {
+			isa = PBXGroup;
+			children = (
+				DB174D2C163725C90081DC21 /* SDTR */,
+				DB174D25163725C90081DC21 /* Frameworks */,
+				DB174D23163725C90081DC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB174D23163725C90081DC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D22163725C90081DC21 /* SDTR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB174D25163725C90081DC21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D55163727BC0081DC21 /* QuartzCore.framework */,
+				DB174D26163725C90081DC21 /* UIKit.framework */,
+				DB174D28163725C90081DC21 /* Foundation.framework */,
+				DB174D2A163725C90081DC21 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB174D2C163725C90081DC21 /* SDTR */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D58163728580081DC21 /* MainViewController */,
+				DB174D57163728400081DC21 /* ScrollDownToRefreshView */,
+				DB174D50163726C40081DC21 /* Assets */,
+				DB174D35163725C90081DC21 /* AppDelegate.h */,
+				DB174D36163725C90081DC21 /* AppDelegate.m */,
+				DB174D3E163725CA0081DC21 /* MainStoryboard.storyboard */,
+				DB174D2D163725C90081DC21 /* Supporting Files */,
+			);
+			path = SDTR;
+			sourceTree = "<group>";
+		};
+		DB174D2D163725C90081DC21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D2E163725C90081DC21 /* SDTR-Info.plist */,
+				DB174D2F163725C90081DC21 /* InfoPlist.strings */,
+				DB174D32163725C90081DC21 /* main.m */,
+				DB174D34163725C90081DC21 /* SDTR-Prefix.pch */,
+				DB174D38163725C90081DC21 /* Default.png */,
+				DB174D3A163725C90081DC21 /* Default@2x.png */,
+				DB174D3C163725CA0081DC21 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB174D50163726C40081DC21 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D53163727060081DC21 /* arrow@2x.png */,
+				DB174D51163726E50081DC21 /* navbar_background.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DB174D57163728400081DC21 /* ScrollDownToRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D49163726230081DC21 /* RefreshView.h */,
+				DB174D4A163726230081DC21 /* RefreshView.m */,
+			);
+			name = ScrollDownToRefreshView;
+			sourceTree = "<group>";
+		};
+		DB174D58163728580081DC21 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB174D41163725CA0081DC21 /* ViewController.h */,
+				DB174D42163725CA0081DC21 /* ViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB174D21163725C90081DC21 /* SDTR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB174D46163725CA0081DC21 /* Build configuration list for PBXNativeTarget "SDTR" */;
+			buildPhases = (
+				DB174D1E163725C90081DC21 /* Sources */,
+				DB174D1F163725C90081DC21 /* Frameworks */,
+				DB174D20163725C90081DC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDTR;
+			productName = SDTR;
+			productReference = DB174D22163725C90081DC21 /* SDTR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB174D19163725C90081DC21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = DB174D1C163725C90081DC21 /* Build configuration list for PBXProject "SDTR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB174D17163725C90081DC21;
+			productRefGroup = DB174D23163725C90081DC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB174D21163725C90081DC21 /* SDTR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB174D20163725C90081DC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB174D31163725C90081DC21 /* InfoPlist.strings in Resources */,
+				DB174D39163725C90081DC21 /* Default.png in Resources */,
+				DB174D3B163725C90081DC21 /* Default@2x.png in Resources */,
+				DB174D3D163725CA0081DC21 /* Default-568h@2x.png in Resources */,
+				DB174D40163725CA0081DC21 /* MainStoryboard.storyboard in Resources */,
+				DB174D52163726E50081DC21 /* navbar_background.png in Resources */,
+				DB174D54163727060081DC21 /* arrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB174D1E163725C90081DC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB174D33163725C90081DC21 /* main.m in Sources */,
+				DB174D37163725C90081DC21 /* AppDelegate.m in Sources */,
+				DB174D43163725CA0081DC21 /* ViewController.m in Sources */,
+				DB174D4B163726230081DC21 /* RefreshView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB174D2F163725C90081DC21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB174D30163725C90081DC21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB174D3E163725CA0081DC21 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB174D3F163725CA0081DC21 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB174D44163725CA0081DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB174D45163725CA0081DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB174D47163725CA0081DC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDTR/SDTR-Prefix.pch";
+				INFOPLIST_FILE = "SDTR/SDTR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB174D48163725CA0081DC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDTR/SDTR-Prefix.pch";
+				INFOPLIST_FILE = "SDTR/SDTR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB174D1C163725C90081DC21 /* Build configuration list for PBXProject "SDTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB174D44163725CA0081DC21 /* Debug */,
+				DB174D45163725CA0081DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB174D46163725CA0081DC21 /* Build configuration list for PBXNativeTarget "SDTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB174D47163725CA0081DC21 /* Debug */,
+				DB174D48163725CA0081DC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB174D19163725C90081DC21 /* Project object */;
+}
