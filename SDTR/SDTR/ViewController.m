@@ -49,8 +49,6 @@
     
     navBar = self.navigationController.navigationBar;
     
-    //[navBar setBackgroundImage:[UIImage imageNamed:@"navbar_background"] forBarMetrics:UIBarMetricsDefault];
-    
     // Nav bar shadow
     
     [self drawShadow:[self.navigationController navigationBar].layer red:0.0f/255.f green:0.0f/255.f blue:0.0f/255.f alpha:1 opacity:0.5f offsetX:0.0f offsetY:1.0f radius:0.0f rasterize:YES];
