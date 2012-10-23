@@ -19,7 +19,6 @@
 		DB174D40163725CA0081DC21 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB174D3E163725CA0081DC21 /* MainStoryboard.storyboard */; };
 		DB174D43163725CA0081DC21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D42163725CA0081DC21 /* ViewController.m */; };
 		DB174D4B163726230081DC21 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB174D4A163726230081DC21 /* RefreshView.m */; };
-		DB174D52163726E50081DC21 /* navbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D51163726E50081DC21 /* navbar_background.png */; };
 		DB174D54163727060081DC21 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB174D53163727060081DC21 /* arrow@2x.png */; };
 		DB174D56163727BC0081DC21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB174D55163727BC0081DC21 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		DB174D42163725CA0081DC21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB174D49163726230081DC21 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
 		DB174D4A163726230081DC21 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
-		DB174D51163726E50081DC21 /* navbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar_background.png; sourceTree = "<group>"; };
 		DB174D53163727060081DC21 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		DB174D55163727BC0081DC21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -123,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				DB174D53163727060081DC21 /* arrow@2x.png */,
-				DB174D51163726E50081DC21 /* navbar_background.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -201,7 +198,6 @@
 				DB174D3B163725C90081DC21 /* Default@2x.png in Resources */,
 				DB174D3D163725CA0081DC21 /* Default-568h@2x.png in Resources */,
 				DB174D40163725CA0081DC21 /* MainStoryboard.storyboard in Resources */,
-				DB174D52163726E50081DC21 /* navbar_background.png in Resources */,
 				DB174D54163727060081DC21 /* arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +328,7 @@
 				DB174D48163725CA0081DC21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
